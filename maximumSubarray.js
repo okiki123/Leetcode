@@ -15,3 +15,6 @@ var maxSubArray = function(nums) {
     }
     return maxSub;
 }
+
+
+console.log(maxSubArray([-2,1,4,-1,2,1]));
