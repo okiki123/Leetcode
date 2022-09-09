@@ -7,5 +7,9 @@ Given the array nums after the possible rotation and an integer target, return t
 You must write an algorithm with O(log n) runtime complexity. */
 
 var search = function(nums, target) {
+     let [ left, right ] = [ 0, nums.length - 1];
 
+     while( left <= right ) {
+        
+     }
 }
