@@ -21,8 +21,6 @@ var search = function(nums, target) {
         if(isAscending) {
             const isInRange = leftNum <= target;
             const isLess = target < guess;
-
-            const isTargetGreater = !(isInRange && isLess);
         }
      }
 }
