@@ -7,7 +7,6 @@ var getSum = function(a, b) {
      while(tb) {
         let temp = (res & b) << 1;
         res = res ^ tb;
-        tb = temp;
      }
 
      return res;
