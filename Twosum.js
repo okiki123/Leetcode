@@ -15,6 +15,6 @@ const TwoSum = function(nums, target) {
         if(compliment in map) {
             return [map[compliment], i]
         }
-       
+        map[nums[i]] = i;
     }
 }
