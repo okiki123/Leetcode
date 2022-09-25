@@ -8,7 +8,7 @@ var containsDuplicate = function(nums) {
         if (numSet.has(i)) {
             return true;
         }
-  
+        numSet.add(i);
     }
     return false;
 }
