@@ -8,7 +8,6 @@ var maxSubArray = function(nums) {
 
     for(let i = 0; i < nums.length; i++) {
         if(currSum < 0) {
-            currSum = 0;
         }
         currSum += nums[i];
         maxSub = Math.max(currSum, maxSub);
